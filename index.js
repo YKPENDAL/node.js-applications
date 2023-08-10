@@ -5,7 +5,7 @@ app.set('port', (process.env.PORT || 5000))
 app.use(express.static(__dirname + '/public'))
 
 app.get('/', function(request, response) {
-  response.send('Welcome to the Allianz Cloud')
+  response.send('Welcome to the Allianz Cloud Pvt Ltd.')
 })
 
 app.listen(app.get('port'), function() {
