@@ -17,7 +17,7 @@ pipeline {
                 }
             }
         }
-        stage('Test') {
+        stage('start') {
             steps {
                 script {
                     // Run tests
