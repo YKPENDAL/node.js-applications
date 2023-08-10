@@ -9,14 +9,14 @@ pipeline {
                 }
             }
         }
-        stage('Build') {
+       /*  stage('Build') {
             steps {
                 script {
                     // Build your Node.js application
                     sh 'npm install'
                 }
             }
-        }
+        } */
         stage('Test') {
             steps {
                 script {
