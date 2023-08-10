@@ -1,10 +1,7 @@
 pipeline {
-    agent any
-    /* triggers {
-        // This block defines triggers for the pipeline
-        // In this case, we're using a webhook trigger
-        webhook('http://192.168.0.127:8080/github-webhook')
-    } */
+    agent {
+           label 'linux-machine'
+       }
     stages {
         stage('Checkout') {
             steps {
