@@ -21,7 +21,7 @@ pipeline {
             steps {
                 script {
                     // Run tests
-                    sh 'npm jest'
+                    sh 'npm start'
                 }
             }
         }
